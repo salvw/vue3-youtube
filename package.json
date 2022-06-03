@@ -31,7 +31,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib src/YouTube.vue && rm ./dist/demo.html ./dist/main.d.ts",
     "lint": "vue-cli-service lint",
-    "version": "yarn version"
+    "version": "yarn version",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@types/youtube": "^0.0.39",
